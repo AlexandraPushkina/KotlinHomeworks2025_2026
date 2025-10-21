@@ -14,7 +14,7 @@ fun printIsNegative(x: Number){
 }
 
 fun sequence(){
-    for (i in 1000..0){
+    for (i in 1000 downTo 0){
         if (i % 3 == 0)
             println (i)
     }
