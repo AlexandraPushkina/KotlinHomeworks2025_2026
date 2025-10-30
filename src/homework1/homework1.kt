@@ -21,12 +21,14 @@ fun sequence(){
 }
 
 fun main(){
-    var a = 1
+    var a1 = 1
+    var a5 = 5
+    var a2 = 6
     val imm = 1
     var pi: Float = 3.142F
     var d: Double = -4.909
     var t: Boolean = true
-    var f: Boolean = false
+    var f: Boolean = a2 in a1..a5
     var name: String = "Alexandra"
     var c: Char = 'i'
 
@@ -34,6 +36,9 @@ fun main(){
     printIsNegative(d)
     printIsNegative(pi)
     sequence()
+
+    println(f)
+
 }
 
 
